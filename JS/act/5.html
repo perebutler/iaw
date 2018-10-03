@@ -1,0 +1,127 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		activitat 5
+	</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	var nom;
+	var nota1;
+	var nota2;
+	var nota3;
+
+	nom=prompt("ingresa el teu nom ","");
+	nota1=prompt("nota 1","");
+	nota2=prompt("nota 2","");
+	nota3=prompt("nota 3","");
+	mitjana=(parseInt(nota1)+parseInt(nota2)+parseInt(nota3))/3;
+	
+
+	if (mitjana >= 5)
+
+				{
+					document.write(nom+', HAS APROVAT !');
+					document.write('<br/>')
+					document.write (nom+ ', la teva nota mitjana es ' +mitjana);
+				}
+	else 
+				{
+	
+					document.write(nom+', has supes');
+
+				}	
+
+
+
+	
+</script>
+
+<script type="text/javascript">
+	
+		var email1;
+		var email2;
+		
+
+		email1=prompt("compta email","");
+		email2=prompt("valida la compta","");
+
+
+		if (email1==email2)
+
+		{
+		
+			document.write('<br/>');
+			document.write('correcte');
+		}
+
+		else 
+		{
+			document.write('<br/>');
+			document.write("error al inserir els correus");
+		}
+		
+
+
+
+</script>
+
+
+<script type="text/javascript">
+	
+var edad;
+edad=parseInt();
+edad=prompt("inserir edat","");
+
+if (edad >= 18 && edad < 65)
+
+{
+	document.write("pots passar");
+}
+
+else
+
+{
+	
+		document.write ("no tens permis per treballar");
+
+
+
+}
+
+
+</script>
+
+<script type="text/javascript">
+	
+var numero;
+var numero = prompt('introdueix el numero','');
+
+
+if (numero%2==0)
+
+{
+		document.write("el numero es par");
+
+}
+
+else
+
+{
+
+	document.write("el numero es impar");
+}
+</script>
+
+
+
+
+</body>
+</html>
+
+
