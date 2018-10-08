@@ -1,0 +1,23 @@
+<script type="text/javascript">
+var a = parseInt(0);
+var nota;
+var aprovats = parseInt(0);
+var suspesos = parseInt(0);
+while (a < 10){
+	a = a + 1;
+	nota = prompt("introdueix una nota");
+	if (nota >= parseInt(5)){
+		
+		aprovats = aprovats + parseInt(1);
+	   
+	}else if (nota <= parseInt(5)){
+		
+		suspesos = suspesos + parseInt(1);
+	}
+	
+}
+document.write("han aprovat: " + aprovats);
+document.write("<br>");
+document.write("han suspes: " + suspesos);
+            
+</script>
