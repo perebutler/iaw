@@ -1,0 +1,23 @@
+<script type="text/javascript">
+var num=1;
+var par=0;
+var impar=0;
+var x=0;
+while (num<=5){
+	num1=prompt("numero: "+num,"");
+	num=num+1
+	x=parseInt(num1)%2;
+	if (x==0) {
+		x=document.write("numero "+num1+" es par");
+	par=par+1;
+	}
+else
+	x=document.write("numero "+num1+" es impar");
+	document.write('<br>');
+	impar=impar+1
+}
+document.write('total pars: '+par);
+document.write("<br>");
+document.write("total impars: "+impar); 
+
+</script>
